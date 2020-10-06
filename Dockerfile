@@ -13,4 +13,5 @@ ADD https://github.com/JamesAdams92150/g4Calendar/blob/main/bash.sh /var/www/scr
 
 EXPOSE 8000/tcp
 
+
 ENTRYPOINT /var/www/script/bash.sh
