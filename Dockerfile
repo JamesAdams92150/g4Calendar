@@ -11,4 +11,6 @@ RUN rm /var/www/html/index.html
 ADD https://github.com/JamesAdams92150/g4Calendar/blob/main/index.html /var/www/html
 ADD https://github.com/JamesAdams92150/g4Calendar/blob/main/bash.sh /var/www/script
 
+EXPOSE 8000/tcp
+
 ENTRYPOINT /var/www/script/bash.sh
