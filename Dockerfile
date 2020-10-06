@@ -13,5 +13,4 @@ ADD https://raw.githubusercontent.com/JamesAdams92150/PegasusSpeech/master/serve
 
 EXPOSE 8000/tcp
 
-
-#ENTRYPOINT /var/www/script/bash.sh
+ENTRYPOINT /var/www/script/bash.sh
